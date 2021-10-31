@@ -1234,9 +1234,9 @@ public class Instrumentation {
             setBuildField(packageName, "MODEL", "Pixel 5 Pro");
         }
 
-        // Set MODEL to "Pixel 4a (5G)"
+        // Set MODEL to "Pixel 6"
         if ("com.google.android.gms".equals(packageName)) {
-            setBuildField(packageName, "MODEL", "Pixel 4a (5G)");
+            setBuildField(packageName, "MODEL", "Pixel 6");
         }
     }
 
