@@ -1234,15 +1234,6 @@ public class Instrumentation {
             setBuildField(packageName, "MODEL", "Pixel 5 Pro");
         }
 
-        // Set MODEL to "Pixel 5" to disable TPU
-        if ("com.google.android.googlequicksearchbox".equals(packageName) ||
-            "com.google.android.tts".equals(packageName)) {
-            setBuildField(packageName, "FINGERPRINT", "google/redfin/redfin:12/SP1A.210812.015/7679548:user/release-keys");
-            setBuildField(packageName, "DEVICE", "redfin");
-            setBuildField(packageName, "PRODUCT", "redfin");
-            setBuildField(packageName, "MODEL", "Pixel 5");
-        }
-
         // Set MODEL to "Pixel 6"
         if ("com.google.android.gms".equals(packageName)) {
             setBuildField(packageName, "MODEL", "Pixel 6");
